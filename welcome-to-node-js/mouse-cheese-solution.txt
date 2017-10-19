@@ -1,0 +1,12 @@
++------------+
+| 5 cheeses! |
++------------+
+
+3 groups of 3 each get a wheel
+the fastest group contains the special mouse **or** the special mouse is in the remaining 3
+
+of the pool of 3, give 2 mice a wheel each. the faster of the two is the special mouse, or the third mouse is the fastest one
+
+concepts:
+if n mice finish their cheeses at the same time, the special mouse is in the pool that wasn’t eating anything
+evenly divided groups of mice will indicate whether the special mouse is in a particular group
