@@ -9,9 +9,10 @@ console.log('sup')
 
 //variables
 var jared = "Jared";
+var jacob = "Jacob";
 var thomas = "Thomas";
 
-console.log(jared + " " + thomas);
+console.log(jared + " " + jacob + " " + thomas);
 
 //arrays
 var people = [
@@ -58,7 +59,7 @@ while(num < 10){
 }
 
 var numTwo = 0;
-while(people[numTwo].name !== "Mikael"){
+while(people[numTwo].name !== "David"){
 	console.log(people[numTwo]);
 	numTwo++;
 }
@@ -66,10 +67,10 @@ while(people[numTwo].name !== "Mikael"){
 //array functions
 console.log(males.indexOf("JARED"))
 console.log(males.indexOf("JOEY"))
-console.log(males.join("-+-"))
+console.log(males.join(" & "))
 
 //string manipulation
-console.log(jared.split(""))
+console.log(jared.split("r"))
 for(var i = 0; i < people.length; i++){
 	if(people[i].name.charAt(0) === "J"){
 		console.log(people[i])
