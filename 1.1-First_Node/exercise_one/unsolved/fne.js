@@ -36,3 +36,42 @@ var animals = [
 		type: "amphibian"
 	}
 ]
+
+var type = "blobbity bloo"
+
+for(var i = 0; i < animals.length; i++){
+	//console.log(type);
+}
+
+var mammals = [];
+for(var i = 0; i < animals.length; i++){
+	//console.log(animals[i].animal)
+	// if(animals[i].type === "mammal"){
+	// 	console.log(animals[i])
+	// }
+	// if(animals[i].type === "fish" || animals[i].type === "arachnid"){
+	// 	console.log(animals[i])
+	// }
+	// if(animals[i].animal.indexOf("o") > -1 && animals[i].animal.indexOf("g") > -1){
+	// 	console.log(animals[i])
+	// }
+	if(animals[i].type === "mammal"){
+		mammals.push(animals[i])
+	}
+}
+console.log(mammals)
+//last item in array for pop
+console.log(mammals.pop())
+
+var mammalFilter = animals.filter((animal) => {
+	return animal.type === "mammal"
+});
+
+console.log(mammalFilter)
+
+
+
+
+
+
+
